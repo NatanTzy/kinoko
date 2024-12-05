@@ -1,0 +1,24 @@
+{
+    "name": "kinoko",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "rm -rf package-lock.json && node index.js"
+    },
+    "author": "zaenishi",
+    "license": "MIT",
+    "description": "Dibuat dengan ❤️oleh zaenishi",
+    "dependencies": {
+        "baileys": "github:amiruldev20/Baileys",
+        "cheerio": "latest",
+        "file-type": "^19.6.0",
+        "session": "npm:baileys-mongodb@1.0.5",
+        "node-fetch": "latest"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.14.0",
+        "eslint": "^9.14.0",
+        "globals": "^15.12.0"
+    }
+}
